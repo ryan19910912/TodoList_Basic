@@ -28,7 +28,7 @@ const Form = ({ setInputText, inputText, todos, setTodos, tab, setTab}) => {
     setInputText('');
   }
 
-  //監聽事件，假如tab異動，則觸發此function
+  //假如tab異動，則觸發此function
   const handlerSelect = (event) => {
     setTab(event.target.value);
   }
